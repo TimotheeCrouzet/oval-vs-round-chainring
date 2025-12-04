@@ -1,6 +1,13 @@
 # oval-vs-round-chainring
 Numerical and experimental study of pedalling torque to compare oval and round bicycle chainrings. Includes a force–angle biomechanical model, torque simulation over one cycle, and experimental measurements.
 
+## 1. Clone the repository
+
+Start by cloning the project to your local machine:
+
+```bash
+git clone https://github.com/TimotheeCrouzet/oval-vs-round-chainring.git
+```
 ## Prerequisites
 You need:
 
@@ -12,7 +19,6 @@ Cas général:
 ```bash 
 pip install uv
 ```
-
 #### macOS (recommended)
 ```bash
 brew install uv
