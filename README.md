@@ -57,6 +57,13 @@ source .venv/bin/activate
 ```bash
 .venv\Scripts\activate
 ```
+### Install the project in editable mode
+
+After activating the virtual environment, install the project locally using:
+
+```bash
+uv pip install -e .
+```
 
 ## 3. Run the Dashboard
 
