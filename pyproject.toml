@@ -1,0 +1,19 @@
+[project]
+name = "oval-vs-round-chainring"
+version = "0.1.0"
+description = "Pedalling torque simulation for round vs oval chainrings"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "kaleido>=1.2.0",
+    "matplotlib>=3.10.7",
+    "numpy>=2.3.5",
+    "plotly>=6.5.0",
+    "streamlit>=1.51.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
