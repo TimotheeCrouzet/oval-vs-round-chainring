@@ -11,7 +11,7 @@ git clone https://github.com/TimotheeCrouzet/oval-vs-round-chainring.git
 ## Prerequisites
 You need:
 
-- **Python 3.10+**
+- **Python 3.12**
 - **uv** installed on your system
 
 ### Install uv
@@ -38,9 +38,14 @@ powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```bash
 uv --version
 ```
+### Install Python 3.12 for this project
+```bash
+uv python install 3.12
+uv python pin 3.12
+```
 ## Environment Setup
 
-Once `uv` is installed, create the virtual environment and install all project dependencies.
+Once `uv` and `python 3.12` are installed, create the virtual environment and install all project dependencies.
 
 ### 1. Install dependencies and create the environment
 ```bash
